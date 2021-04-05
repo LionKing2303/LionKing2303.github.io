@@ -20,6 +20,21 @@
 
             <center>*** Open Banking Deeplink Tester ***
                 <br>
+                <center> ******** COMSEC *********
+                  <br>
+                  <form action="https://static.bankhapoalim.co.il/business-ep">
+                    <input type="hidden" name="client_id" value="OB-IL-BOI-500001-AI_TestFintech_U1"/>
+                    <input type="hidden" name="state" value="abc"/>
+                    <input type="hidden" name="code_challenge" value="BF__Q9MTBt6a63fIPeCY908vj4euq11gqrw4F1r4ZQk"/>
+                    <input type="hidden" name="code_challenge_method" value="S256"/>
+                    <input type="hidden" name="response_type" value="code"/>
+                    <input type="hidden" name="redirect_uri" value="https://aitestfintech.com"/>
+
+                    <label for="consent-id">Consent Id (vv78194):</label><br>
+                    <input type="text" id="scope" name="scope" value="AIS:bc4429f8-af0d-1c40-6479-a5e8586ae6c8"/><br>
+                    <input type="submit"/>
+              </form>
+              <br>
                 <center>*** EP Deeplink Tester ***
               <br>
               <form action="https://static.bankhapoalim.co.il/business-ep">
